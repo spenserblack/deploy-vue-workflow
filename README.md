@@ -1,19 +1,6 @@
 # deploy-vue-workflow
 
-## Project setup
-```
-npm install
-```
+View [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml) to view the workflow.
+You will probably want to edit the [workflow triggers](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#configuring-workflow-events).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You will need to go to your repository's settings, go to "Pages", and then set the source to `gh-pages`.
